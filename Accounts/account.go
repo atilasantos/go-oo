@@ -53,11 +53,3 @@ func (account *Account) TransferTo(receiverAccount *Account, amount float32) boo
 func (account *Account) GetBalance() float32 {
 	return account.balance
 }
-
-func (account *Account) SetBalance(amount float32) {
-	if amount > 0 {
-		account.balance = amount
-	} else {
-		fmt.Println("Value less than zero.")
-	}
-}
