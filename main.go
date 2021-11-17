@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	accounts "github.com/atilasantos/go-oo"
+	accounts "github.com/atilasantos/go-oo/Accounts"
 )
 
 func main() {
